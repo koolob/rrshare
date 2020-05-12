@@ -4,6 +4,6 @@
 
 使用方式：
 
-    docker run -d -p 3001:3001 -v 一个本地绝对路径:/opt/work/store koolob/rrshare:latest
+    docker run -d -p 3001:3001 -v 一个本地绝对路径:/opt/work/store --add-host=www.zmzfile.com:127.0.0.1 koolob/rrshare:latest
 
 登录密码：123456
