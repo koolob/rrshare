@@ -1,1 +1,1 @@
-docker run -it koolob/rrshare:latest /bin/bash
+docker run -it --add-host=www.zmzfile.com:127.0.0.1 koolob/rrshare:latest /bin/bash
